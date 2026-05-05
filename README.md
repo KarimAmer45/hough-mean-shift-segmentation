@@ -28,21 +28,21 @@ python chamfer_distance_transform.py
 python hough_circles_meanshift.py
 ```
 
-## Result screenshots
+## Segmentation output
 
 ![hough-mean-shift-segmentation result screenshot](docs/results/result-screenshot.png)
 
 Detected-circle overlay and inspected luminance input for the Hough/mean-shift routines.
 
 
-## What this demonstrates
+## Detection and clustering workflow
 
 - Classical shape detection and segmentation pipelines built from interpretable steps.
 - Use of synthetic shapes plus natural-image examples for quick sanity checks.
 - A practical bridge between distance transforms, Hough voting, and mean-shift segmentation.
 
 
-## Limitations and next steps
+## Known boundaries
 
 - The scripts depend on OpenCV for the full runnable path.
 - Circle-detection parameters are example-oriented rather than fully automatic.
